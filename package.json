@@ -1,0 +1,12 @@
+{
+  "name": "green_ship",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex <a@hobby4me.ru>",
+  "license": "Commercial",
+  "devDependencies": {},
+  "dependencies": {
+    "fomantic-ui": "^2.7.8",
+    "jquery": "^3.4.1"
+  }
+}

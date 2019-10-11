@@ -41,8 +41,10 @@ nosetests.xml
 
 # npm
 node_modules
+package-lock.json
 
 # custom
 _*
 !__*
 __pycache__
+semantic
