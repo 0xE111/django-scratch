@@ -51,6 +51,18 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'core.urls'
 
+# ---- static files ----
+STATIC_ROOT = 'static'
+STATICFILES_FINDERS = [
+    'npm.finders.NpmFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+NPM_ROOT_PATH = BASE_DIR
+NPM_FILE_PATTERNS = {
+    'jquery': ['dist/jquery.min.js'],
+    'fomantic-ui': ['dist/*'],
+}
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
