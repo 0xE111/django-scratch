@@ -8,7 +8,7 @@ from django.utils import translation
 from django.utils.timezone import now
 from jinja2 import Environment
 
-# from constance import config
+from constance import config
 #
 # from utils.datetime import date
 # from utils.rst import rst
@@ -20,13 +20,13 @@ context = {
     'globals': {
         'DEBUG': settings.DEBUG,
         'LANG': settings.LANGUAGE_CODE,
+        'CONFIG': config,
 
         'static': static,
         # 'media': lambda file: settings.MEDIA_URL + file,
         'csrf_token': get_token,
         'url': reverse,
         # 'now': now,
-        # 'constance': config,
     },
     'filters': {
         # 'rst': rst,

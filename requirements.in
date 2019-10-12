@@ -1,5 +1,6 @@
 django
 djangorestframework
+django-constance[database]
 jinja2
 git+https://github.com/bashu/django-admin-honeypot@patch-1
 

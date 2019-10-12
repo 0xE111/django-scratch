@@ -7,11 +7,10 @@
     {% endif %}
     <title></title>
 </head>
-<body style="
-    background-image: url('{{ static('core/background.jpg') }}');
-    background-size: cover;
-">
-
+<body>
+    {% if CONFIG.ANNOUNCEMENT %}
+        <div class="ui ignored info message">{{ CONFIG.ANNOUNCEMENT }}</div>
+    {% endif %}
 
     {% if DEBUG %}
         <script src="{{ static('zepto/dist/zepto.js') }}"></script>

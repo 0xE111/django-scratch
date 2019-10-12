@@ -33,6 +33,8 @@ INSTALLED_APPS = [
 
     'core',
 
+    'constance',
+    'constance.backends.database',
     'admin_honeypot',
     'debug_toolbar',
 ]
@@ -59,6 +61,15 @@ DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.cache.CachePanel',
     'debug_toolbar.panels.logging.LoggingPanel',
 ]
+
+CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
+CONSTANCE_ADDITIONAL_FIELDS = {
+    'file_field': ['django.forms.FileField', {}]
+}
+CONSTANCE_CONFIG = {
+    # 'FILE': (None, 'Description', 'file_field'),
+    'ANNOUNCEMENT': ('', 'Announcement', str),
+}
 
 ROOT_URLCONF = 'core.urls'
 STATIC_URL = '/static/'
