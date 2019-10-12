@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -59,8 +60,9 @@ STATICFILES_FINDERS = [
 ]
 NPM_ROOT_PATH = BASE_DIR
 NPM_FILE_PATTERNS = {
-    'jquery': ['dist/jquery.min.js'],
+    'jquery': ['dist/*'],
     'fomantic-ui': ['dist/*'],
+    'vue': ['dist/*'],
 }
 
 TEMPLATES = [

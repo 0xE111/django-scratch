@@ -1,5 +1,7 @@
 django
+djangorestframework
 
 django-npm
+django-debug-toolbar
 ipython
 ipdb

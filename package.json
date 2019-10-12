@@ -7,6 +7,7 @@
   "devDependencies": {},
   "dependencies": {
     "fomantic-ui": "^2.7.8",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10"
   }
 }
