@@ -1,6 +1,7 @@
 django
 djangorestframework
 jinja2
+git+https://github.com/bashu/django-admin-honeypot@patch-1
 
 django-npm
 django-debug-toolbar

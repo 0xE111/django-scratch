@@ -33,6 +33,7 @@ INSTALLED_APPS = [
 
     'core',
 
+    'admin_honeypot',
     'debug_toolbar',
 ]
 
