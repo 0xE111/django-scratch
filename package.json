@@ -1,9 +1,9 @@
 {
-  "name": "green_ship",
+  "name": "project",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Alex <a@hobby4me.ru>",
-  "license": "Commercial",
+  "author": "NoName <mail@localhost>",
+  "license": "Custom",
   "devDependencies": {},
   "dependencies": {
     "fomantic-ui": "^2.7.8",
