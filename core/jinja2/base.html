@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    {% if DEBUG %}
+        <link rel="stylesheet" type="text/css" href="{{ static('fomantic-ui/dist/semantic.css') }}">
+    {% else %}
+        <link rel="stylesheet" type="text/css" href="{{ static('fomantic-ui/dist/semantic.min.css') }}">
+    {% endif %}
+    <title></title>
+</head>
+<body style="
+    background-image: url('{{ static('core/background.jpg') }}');
+    background-size: cover;
+">
+
+
+    {% if DEBUG %}
+        <script src="{{ static('zepto/dist/zepto.js') }}"></script>
+    {% else %}
+        <script src="{{ static('zepto/dist/zepto.min.js') }}"></script>
+    {% endif %}
+</body>

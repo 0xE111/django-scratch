@@ -1,5 +1,6 @@
 django
 djangorestframework
+jinja2
 
 django-npm
 django-debug-toolbar
