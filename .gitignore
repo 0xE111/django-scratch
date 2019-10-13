@@ -51,3 +51,4 @@ semantic
 env
 static
 media
+*.sqlite3
